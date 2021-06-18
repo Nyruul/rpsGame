@@ -44,7 +44,6 @@ while True: # Main game loop
     if playerMove == computerMove:
         print('It`s a tie!') # Test syntax on that string later
         ties = ties + 1
-    elif playerMove == 'r' and computerMove == 's'
+    elif playerMove == 'r' and computerMove == 's':
         print('You win!')
         wins = wins + 1
-        

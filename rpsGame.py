@@ -29,3 +29,22 @@ while True: # Main game loop
         print('SCISSORS versus...')
 
 # Display what the computer chose:
+    randomNumber = random.randint(1,3)
+    if randomNumber == 1:
+        computerMove = 'r'
+        print('ROCK')
+    elif randomNumber == 2:
+        computerMove = 'p'
+        print('PAPER')
+    elif randomNumber == 3:
+        computerMove = 's'
+        print('SCISSORS')
+
+    # Display and record the win/loss/tie:
+    if playerMove == computerMove:
+        print('It`s a tie!') # Test syntax on that string later
+        ties = ties + 1
+    elif playerMove == 'r' and computerMove == 's'
+        print('You win!')
+        wins = wins + 1
+        
